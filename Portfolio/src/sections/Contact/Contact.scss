@@ -1,0 +1,13 @@
+@use "../../styles/variables" as *;
+
+.contact {
+  min-height: 100vh;
+  max-width: 100%;
+  // background-color: rgb(111, 187, 84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+  padding-top: 50px;
+}
+

@@ -1,0 +1,82 @@
+@use "../../styles/variables" as *;
+
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  gap: 40px;
+  width: 100%;
+  &__container {
+    display: flex;
+  }
+  &__headline {
+    font-size: 3.5rem;
+  }
+  &__box {
+    // background-color: red;
+    padding-bottom: 20px;
+    max-width: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__icon {
+    height: 100%;
+    width: auto;
+    max-height: 120px;
+  }
+  &__text {
+    // padding-top: 40px;
+    padding: 40px 0px 20px 0;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .contactinfo {
+    &__container {
+      // background-color: red;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    &__box {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}
+@media only screen and (max-width: $mobile) {
+  .contactinfo {
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+    &__headline {
+      font-size: 3.5rem;
+    }
+    &__box {
+      // background-color: red;
+      padding-bottom: 20px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    &__icon {
+      height: 100%;
+      width: auto;
+      // max-height: 120px;
+    }
+    &__text {
+      padding-right: 20px;
+    }
+  }
+
+}
+.newdirection {
+  flex-direction: row-reverse;
+}

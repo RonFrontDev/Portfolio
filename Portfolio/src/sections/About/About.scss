@@ -1,0 +1,73 @@
+@use "../../styles/variables" as *;
+
+.about {
+  min-height: 100vh;
+  background-color: rgba(237, 237, 237, 0.584);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+  padding-top: 50px;
+  
+  &__container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    padding: 0 50px ;
+    gap: 50px;
+
+  }
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+    max-height: 500px; 
+    height: 100%;
+    border-radius: 25px;
+  }
+  &__title {
+    font-size: 3rem;
+    color: $orange;
+  }
+  &__headline {
+    max-width: 400px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0;
+    color: red;
+  }
+  &__paragraph {
+    max-width: 600px;
+    line-height: 1.5;
+    color: rebeccapurple;
+  }
+  &__headline-personal {
+    max-width: 400px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0;
+    color: red;
+  }
+  &__paragraph-personal {
+    max-width: 600px;
+    line-height: 1.5;
+    color: rebeccapurple;
+  }
+}
+@media only screen and (max-width: $ipad) {
+  .about {
+   &__container {
+   
+   gap: 50px;
+   }
+  }
+}
+@media only screen and (max-width: $mobile) {
+  .about {
+   &__container {
+    grid-template-columns: 1fr;
+   }
+  }
+}
+

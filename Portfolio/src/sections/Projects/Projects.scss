@@ -1,0 +1,155 @@
+@use "../../styles/variables" as *;
+
+.projects {
+  min-height: 100vh;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  scroll-snap-align: start;
+  padding: 50px 60px;
+  gap: 50px;
+  &__header {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  &__headline {
+    color: blue;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font-size: 1.3rem;
+  }
+  &__box {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+    max-height: 600px;
+    min-height: 350px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36);
+    
+  }
+  &__image{
+    border-radius: 25px;
+    margin: 15px;
+    width: 500px;
+    max-width: 500px;
+    min-width: 250px;
+    transition: 1s ease-in-out;
+
+  }
+  &__image:hover{
+    transform: scale(1.1);
+    border-radius:50%;
+    transition: 1s ease-in-out;
+    }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    // height: 100%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+  &__title { 
+    color: black;
+    padding-bottom: 5px;
+  }
+
+  &__paragraph {
+    max-width: 450px;
+    padding: 10px;
+    display: flex;    
+    color: gray;
+  }
+  &__skills {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+  &__skill-icon {
+    padding-left:5px;
+    height: 20px;
+  }
+  &__skill {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px 17px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  }
+  
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 5px;
+  }
+  &__button:hover {
+    color: rgb(135, 190, 208);
+    cursor: pointer;
+
+    
+  }
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: $mobile) {
+ .projects {
+  &__box{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 600px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36); 
+    
+  }
+  &__image{
+    padding: 45px 0 0px;
+  }
+  &__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  &__headline {
+    color: blue;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font-size: 1.3rem;
+  }
+ 
+ }
+
+}

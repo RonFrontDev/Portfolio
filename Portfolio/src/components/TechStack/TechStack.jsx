@@ -1,0 +1,25 @@
+import './TechStack.scss'
+
+
+function TechStack() {
+  return (
+    <>
+      <div className='techstack'>
+        <h3 className="techstack__title">Tech Stack</h3>
+        <div className='techstack__container'>
+          <img className='techstack__icon' src="svg/html.svg" alt="" />
+          <img className='techstack__icon' src="svg/css.svg" alt="" />
+          <img className='techstack__icon' src="svg/js.svg" alt="" />
+          <img className='techstack__icon' src="svg/sass.svg" alt="" />
+          <img className='techstack__icon' src="svg/vite.svg" alt="" />
+          <img className='techstack__icon' src="svg/react.svg" alt="" />
+          <img className='techstack__icon' src="svg/bem.svg" alt="" />
+          <img className='techstack__icon' src="svg/npm.svg" alt="" />
+          <img className='techstack__icon' src="svg/atomic.svg" alt="" />
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default TechStack
