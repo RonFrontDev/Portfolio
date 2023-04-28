@@ -3,9 +3,7 @@
 
 .navbar {
         padding: 0 25px;
-        // background-color: rgba(206, 204, 204, 0.638);
         background-color: $white;
-        // background-color: transparent;  
         height: 80px;
         display: flex;
         align-items: center;
@@ -85,8 +83,7 @@
 
 @media only screen and (max-width: $mobile) {
     .navbar {
-      // background-color: rgb(98, 46, 46);
-      // background-color: transparent;
+        justify-content: flex-end;      
     &__logo {
         display: flex;
         justify-content: center;

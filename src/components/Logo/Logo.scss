@@ -1,0 +1,47 @@
+@use "../../styles/variables" as *;
+
+.logo {
+  // Mobile styling
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  
+  &__icon {
+    height: 30px;
+    padding-right: 10px;
+  }
+
+  &--mobile {
+    display: flex;
+  }
+  &--desktop {
+    display: none;
+  }
+
+  @media (min-width: $mobile) {
+    // Desktop styling
+    font-size: 1.5rem;
+    flex-direction: row;
+    text-align: start;
+    &__icon {
+      height: 50px;
+    }
+    &__top {
+      letter-spacing: 1.6px;
+    }
+    &__bottom {
+      letter-spacing: 1.6px;
+    }
+    &--mobile {
+      display: none;
+    }
+    &--desktop {
+      display: flex;
+    }
+  }
+}
