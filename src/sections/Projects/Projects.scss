@@ -37,18 +37,18 @@
     
   }
   &__image{
+    object-fit: cover;
     border-radius: 25px;
     margin: 15px;
     width: 500px;
     max-width: 500px;
     min-width: 250px;
     transition: 1s ease-in-out;
-
   }
   &__image:hover{
     transform: scale(1.1);
     border-radius:50%;
-    transition: 1s ease-in-out;
+    transition: .2s ease-in-out;
     }
   &__info {
     display: flex;
@@ -74,7 +74,7 @@
   &__skills {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10%;
   }
   &__skill-icon {
     padding-left:5px;
@@ -103,7 +103,7 @@
     border: none;
     text-transform: uppercase;
     background-color: transparent;
-    padding: 5px;
+    padding: 15px 5px ;
   }
   &__button:hover {
     color: rgb(135, 190, 208);
@@ -125,15 +125,16 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 400px;
-    min-width: 300px;
-    max-height: 600px;
-    overflow: hidden;
     box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36); 
     
   }
+
   &__image{
-    padding: 45px 0 0px;
+    border-radius: 25px;
+    margin: 15px;
+    max-width: 300px;
+    min-width: 250px;
+    transition: 1s ease-in-out;
   }
   &__header {
     width: 100%;
@@ -147,7 +148,13 @@
     text-transform: uppercase;
   }
   &__subtitle {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    color: goldenrod;
+  }
+  &__paragraph {
+    padding: 25px;
+    display: flex;    
+    color: gray;
   }
  
  }

@@ -11,11 +11,8 @@ function TechStack() {
           <img className='techstack__icon' src="svg/css.svg" alt="" />
           <img className='techstack__icon' src="svg/js.svg" alt="" />
           <img className='techstack__icon' src="svg/sass.svg" alt="" />
-          <img className='techstack__icon' src="svg/vite.svg" alt="" />
           <img className='techstack__icon' src="svg/react.svg" alt="" />
-          <img className='techstack__icon' src="svg/bem.svg" alt="" />
           <img className='techstack__icon' src="svg/npm.svg" alt="" />
-          <img className='techstack__icon' src="svg/atomic.svg" alt="" />
         </div>
       </div>
     </>

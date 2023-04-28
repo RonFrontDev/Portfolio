@@ -35,24 +35,20 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding: 20px 0;
-    color: red;
   }
   &__paragraph {
     max-width: 600px;
     line-height: 1.5;
-    color: rebeccapurple;
   }
   &__headline-personal {
     max-width: 400px;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 20px 0;
-    color: red;
   }
   &__paragraph-personal {
     max-width: 600px;
     line-height: 1.5;
-    color: rebeccapurple;
   }
 }
 @media only screen and (max-width: $ipad) {
