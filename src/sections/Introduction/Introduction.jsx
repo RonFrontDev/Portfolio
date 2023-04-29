@@ -1,7 +1,7 @@
 
 import Structure from '../../components/Structure/Structure'
 import TechStack from '../../components/TechStack/TechStack'
-import Profile from '../../components/profile/Profile'
+import Profile from '../../components/Profile/Profile'
 import './Introduction.scss'
 
 function Introduction() {
