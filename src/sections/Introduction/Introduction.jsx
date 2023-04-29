@@ -1,6 +1,7 @@
 
 import Structure from '../../components/Structure/Structure'
 import TechStack from '../../components/TechStack/TechStack'
+import Profile from '../../components/profile/Profile'
 import './Introduction.scss'
 
 function Introduction() {
@@ -18,12 +19,13 @@ function Introduction() {
             Currently located in Germany, Berlin 
               where I live with my girlfriend.
           </p>
-      <TechStack/>
-      <Structure/>
+        <Profile/>
+        <TechStack/>
+        <Structure/>
         </div>
-            </div>
-          <img className='introduction__image' src="/images/ronny.jpg" alt="ronny profile" />
-        </div>
+      </div>
+          <Profile isMobile/>
+      </div>
     </div>
     </>
   )

@@ -69,29 +69,23 @@
   .introduction {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
     padding: 0 40px;
-    margin-bottom: 280px;
+    margin-bottom: 350px;
 
     &__profile {
       display: flex;
       flex-direction: column;
     }
     &__image {
-      object-fit: cover;
-      object-position: top;
-      max-width: auto;
+      display: flex;
       min-width: 200px;
-      max-height: 300px;
+      max-height: 500px;
       border-radius: 90px;
       margin: 20px;
       aspect-ratio: none;
-      order: 1;
-    }
-    &__textbox {
-      order: 2;
-    }
-    &__links {
-      
     }
     &__link {
       margin-top: 20px;
@@ -99,10 +93,11 @@
       width: auto;
       transition: transform 1s ;
     }
+    
   }
 }
 
 .space {
-  background-color: red;
+  background-color: transparent;
   height: 80px;
 }

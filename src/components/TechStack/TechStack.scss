@@ -28,15 +28,14 @@ padding-top: 50px;
 }
 @media only screen and (max-width: $mobile) {
     .techstack {
-      display: flex;
-      flex-direction: column;  
+      
     &__container{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
+        display: flex;
+        flex-wrap: wrap;
     }  
     &__icon {
           height:auto;
-          width: 25px;
+          width: 45px;
       }
     }
   }
