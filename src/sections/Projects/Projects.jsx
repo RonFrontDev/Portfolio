@@ -1,14 +1,21 @@
-import './Projects.scss'
+import Project from "../../components/Project/Project";
+import "./Projects.scss";
+import projectsData from "../../projectsData.json";
 
 function Projects() {
-
+  console.log(projectsData);
   return (
     <div id="projectsSection" className="projects">
-      <div className='projects__header'>
-          <h2 className='projects__headline'>Portfolio</h2>
-          <p className='projects__subtitle'>Each project is a unique piece of development</p>
+      <div className="projects__header">
+        <h2 className="projects__headline">Portfolio</h2>
+        <p className="projects__subtitle">
+          Each project is a unique piece of development
+        </p>
       </div>
-        <div className='projects__box '>
+      {projectsData.map((projectData) => (
+        <Project key={projectData.id} data={projectData} />
+      ))}
+      {/* <div className='projects__box '>
           <div className='projects__box reverse'>
           <img className='projects__image' src="/images/office2.jpg" alt="" />
           <div className='projects__info'>
@@ -82,10 +89,9 @@ function Projects() {
 
             </div>
           </div>
-        </div> 
+        </div>  */}
     </div>
-  )
+  );
 }
 
-export default Projects
-
+export default Projects;

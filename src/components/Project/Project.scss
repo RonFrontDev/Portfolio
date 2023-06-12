@@ -1,0 +1,144 @@
+@use "../../styles/variables" as *;
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: white;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36);
+  &__header {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  &__headline {
+    color: blue;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font-size: 1.3rem;
+  }
+  &__imagebox {
+    display: flex;
+    align-items: center;
+  }
+  
+  &__image{
+    // border: 2px solid red;
+    object-fit: cover;
+    border-radius: 25px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+  }
+  &__info {
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+  &__title { 
+    color: black;
+    padding-bottom: 5px;
+  }
+  &__paragraph {
+    max-width: 450px;
+    padding: 10px;
+    display: flex;    
+    color: gray;
+  }
+  &__skills {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  }
+  &__skill-icon {
+    padding-left:5px;
+    height: 20px;
+  }
+  &__skill {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px 17px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 15px 5px ;
+  }
+  &__button:hover {
+    color: rgb(135, 190, 208);
+    cursor: pointer;
+  }
+  &:nth-child(even) {
+   & .project__imagebox {
+    order:1;
+   }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+ .project {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36); 
+    &__image{
+      border-radius: 25px;
+      margin: 15px;
+      max-width: 300px;
+      min-width: 250px;
+    }
+    &__header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    
+    }
+    &__headline {
+      color: blue;
+      text-transform: uppercase;
+    }
+    &__subtitle {
+      font-size: 1.1rem;
+      color: goldenrod;
+    }
+    &__paragraph {
+      padding: 25px;
+      display: flex;    
+      color: gray;
+    }
+    &:nth-child(even) {
+      & .project__imagebox {
+       order:0;
+      }
+     }
+  }
+}

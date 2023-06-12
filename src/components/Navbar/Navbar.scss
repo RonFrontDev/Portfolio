@@ -2,6 +2,7 @@
 
 
 .navbar {
+        z-index: 10;
         padding: 0 25px;
         background-color: $white;
         height: 80px;
@@ -41,8 +42,7 @@
         text-decoration: none;
     }
     &__link:hover {
-        color: greenyellow;
-        border-bottom: 1px solid black;
+        color: navy;
 
     }
     &__link::after{
