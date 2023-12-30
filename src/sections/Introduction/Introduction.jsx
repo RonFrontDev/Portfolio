@@ -1,4 +1,4 @@
-import Design from "../../components/Design/design";
+import Design from "../../components/Design/Design";
 import Profile from "../../components/Profile/Profile";
 import Structure from "../../components/Structure/Structure";
 import TechStack from "../../components/TechStack/TechStack";
