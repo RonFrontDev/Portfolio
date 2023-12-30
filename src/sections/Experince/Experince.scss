@@ -1,0 +1,63 @@
+@use "../../styles/variables" as *;
+
+.experince {
+  background-image: url("images/whitegreenBG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1r 1fr;
+  background-color: rgb(188, 168, 168);
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  &__headline {
+    z-index: 2;
+    margin-top: 30px;
+  }
+  &__image {
+    max-width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  &__container {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-self: center;
+    gap: 20px;
+  }
+
+  &__work {
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  &__work--image {
+    height: auto;
+    width: 60px;
+  }
+  &__work--title {
+    font-size: 1rem;
+  }
+  &__work--text {
+    font-size: 0.8rem;
+    list-style-position: inside;
+  }
+}
+
+.sizes {
+  margin-top: -10px;
+  margin-left: -5px;
+  width: 200px;
+}

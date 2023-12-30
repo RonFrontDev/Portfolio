@@ -1,8 +1,15 @@
 @use "../../styles/variables" as *;
 
 .projects {
+  background-image: url("images/whiteBG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(244, 244, 244);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,39 +24,18 @@
     flex-direction: column;
   }
   &__headline {
-    color: blue;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
   }
   &__subtitle {
     font-size: 1.3rem;
   }
-  &__box {
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    width: 100%;
-    max-width: 1000px;
-    min-width: 300px;
-    max-height: 600px;
-    min-height: 350px;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36);
-    
-  }
-  &__image{
-    object-fit: cover;
-    border-radius: 25px;
-    margin: 15px;
-    // width: 500px;
-    max-width: 500px;
-    min-width: 250px;
-    transition: 1s ease-in-out;
-  }
-  &__image:hover{
+
+  &__image:hover {
     transform: scale(1.1);
-    border-radius:50%;
-    transition: .2s ease-in-out;
-    }
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+  }
   &__info {
     display: flex;
     flex-direction: column;
@@ -60,7 +46,7 @@
     max-width: 500px;
     min-width: 300px;
   }
-  &__title { 
+  &__title {
     color: black;
     padding-bottom: 5px;
   }
@@ -68,16 +54,16 @@
   &__paragraph {
     max-width: 450px;
     padding: 10px;
-    display: flex;    
+    display: flex;
     color: gray;
   }
   &__skills {
-  display: flex;
-  justify-content: center;
-  gap: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
   }
   &__skill-icon {
-    padding-left:5px;
+    padding-left: 5px;
     height: 20px;
   }
   &__skill {
@@ -86,14 +72,13 @@
     text-align: center;
     border-radius: 25px;
     padding: 7px 17px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background: rgb(15, 3, 120);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
+
   &__buttons {
     display: flex;
     justify-content: space-around;
-  
   }
   &__button {
     display: flex;
@@ -103,60 +88,54 @@
     border: none;
     text-transform: uppercase;
     background-color: transparent;
-    padding: 15px 5px ;
+    padding: 15px 5px;
   }
   &__button:hover {
     color: rgb(135, 190, 208);
     cursor: pointer;
-
-    
   }
 }
 .reverse {
   flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: $mobile) {
- .projects {
-  &__box{
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.36); 
-    
-  }
+// @media only screen and (max-width: $mobile) {
+//   .projects {
+//     &__box {
+//       background-color: white;
+//       border-radius: 25px;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       width: 100%;
+//       box-shadow: 10px 10px 10px -6px rgba(0, 0, 0, 0.36);
+//     }
 
-  &__image{
-    border-radius: 25px;
-    margin: 15px;
-    max-width: 300px;
-    min-width: 250px;
-    transition: 1s ease-in-out;
-  }
-  &__header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-   
-  }
-  &__headline {
-    color: blue;
-    text-transform: uppercase;
-  }
-  &__subtitle {
-    font-size: 1.1rem;
-    color: goldenrod;
-  }
-  &__paragraph {
-    padding: 25px;
-    display: flex;    
-    color: gray;
-  }
- 
- }
-
-}
+//     &__image {
+//       border-radius: 25px;
+//       margin: 15px;
+//       max-width: 300px;
+//       min-width: 250px;
+//       transition: 1s ease-in-out;
+//     }
+//     &__header {
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       text-align: center;
+//     }
+//     &__headline {
+//       color: blue;
+//       text-transform: uppercase;
+//     }
+//     &__subtitle {
+//       font-size: 1.1rem;
+//       color: goldenrod;
+//     }
+//     &__paragraph {
+//       padding: 25px;
+//       display: flex;
+//       color: gray;
+//     }
+//   }
+// }

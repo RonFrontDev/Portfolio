@@ -1,35 +1,45 @@
-
-import Structure from '../../components/Structure/Structure'
-import TechStack from '../../components/TechStack/TechStack'
-import Profile from '../../components/Profile/Profile'
-import './Introduction.scss'
+import Design from "../../components/Design/design";
+import Profile from "../../components/Profile/Profile";
+import Structure from "../../components/Structure/Structure";
+import TechStack from "../../components/TechStack/TechStack";
+import "./Introduction.scss";
 
 function Introduction() {
-
   return (
     <>
-    <div className='space'></div>
-    <div id='homeSection' className="introduction">
-      <div className='introduction__profile'>
-        <div>
-          <div className='introduction__textbox'>
-          <h1 className="introduction__headline">Front-End React Developer</h1>
-          <p className="introduction__text">Hi, I am Ronny from Denmark, Copenhagen.<img className='introduction__location' src="svg/location.svg" alt="" /></p>
-          <p className="introduction__text">
-            Currently located in Germany, Berlin 
-              where I live with my girlfriend.
-          </p>
-        <Profile/>
-        <TechStack/>
-        <Structure/>
+      <div className="space"></div>
+      <div id="home" className="introduction">
+        <div className="introduction__profile">
+          <Profile isMobile />
+          <div className="introduction__container">
+            <div className="introduction__textbox">
+              <h1 className="introduction__headline">Frontend Web Developer</h1>
+              <p className="introduction__text">
+                Hey, I'm Ronny, a Junior Frontend Developer from Denmark 🇩🇰
+                Passionate about coding and creating visually appealing
+                websites, I'm on a mission to make my
+                <img
+                  className="introduction__location"
+                  src="svg/location.svg"
+                  alt=""
+                />
+                <span className="introduction__text">
+                  in the world of web development.
+                </span>
+              </p>
+              <Profile />
+              <TechStack />
+            </div>
+            <div className="test">
+              <Structure />
+              <Design />
+            </div>
+          </div>
+          {/* <Profile isMobile /> */}
         </div>
       </div>
-          <Profile isMobile/>
-      </div>
-    </div>
     </>
-  )
+  );
 }
 
-export default Introduction
-
+export default Introduction;

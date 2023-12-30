@@ -1,6 +1,14 @@
 @use "../../styles/variables" as *;
 
 .contactinfo {
+  background-image: url("images/whiteBG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 100%;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,17 +19,15 @@
     display: flex;
   }
   &__headline {
+    padding-bottom: 140px;
     font-size: 3.5rem;
   }
   &__box {
-    padding-bottom: 20px;
+    padding-bottom: 50%;
     max-width: 400px;
     min-width: 300px;
-    // display: flex;
     flex-direction: column;
-    // align-items: center;
     text-align: center;
-    // gap: 50px;
   }
   &__link {
     text-decoration: none;
@@ -49,32 +55,48 @@
     width: 100%;
     position: absolute;
     inset: 80px, 0;
-    
   }
   &__title {
     color: white;
   }
-
-
+  // POPUP STYLING
+  &__email--title {
+    color: white;
+    font-size: 3rem;
+  }
+  &__email--text {
+    color: white;
+    font-size: 3rem;
+  }
+  &__location--container {
+    position: relative;
+  }
+  &__location--image {
+  }
+  &__location--text {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+  }
 }
 @media only screen and (max-width: 1280px) {
   .contactinfo {
     &__container {
       // background-color: red;
       display: grid;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
     &__box {
       display: flex;
       flex-direction: column;
     }
   }
-
 }
 @media only screen and (max-width: 920px) {
   .contactinfo {
     &__container {
-   width: 100%;
+      width: 100%;
     }
     &__headline {
       font-size: 3.5rem;
@@ -93,7 +115,6 @@
       align-items: center;
     }
   }
-
 }
 @media only screen and (max-width: $mobile) {
   .contactinfo {
@@ -121,7 +142,6 @@
       padding-right: 20px;
     }
   }
-
 }
 .newdirection {
   flex-direction: row-reverse;
@@ -135,12 +155,4 @@
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
-
-
-.title {
-  color:white;
-}
-.text {
-color: white;
 }

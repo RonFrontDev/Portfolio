@@ -1,149 +1,150 @@
 [
-    {
-      "id": 1,
-      "title": "Landing pages",
-      "description": "Resposive webpages",
-      "link":"https://ronfrontweb.github.io/E_Bike/index.html",
-      "image": {
-        "src": "/images/landing1.png",
-        "alt": "Et kontor",
-        "reverse": true
-      },
-      "skills": [
-        {
-          "id": 1,
-          "name": "React",
-          "icon": "/svg/react.svg"
-        },
-        {
-          "id": 2,
-          "name": "SASS",
-          "icon": "/svg/sass.svg"
-        }
-      ],
-      "links": [
-        {
-          "id": 1,
-          "url": "https://ronfrontweb.github.io/E_Bike/index.html",
-          "name": "Live Demo",
-          "icon": "/svg/live.svg"
-        },
-        {
-          "id": 2,
-          "url": "GITHUB_REPO_LINK",
-          "name": "GitHub",
-          "icon": "/svg/github.svg"
-        }
-      ]
+  {
+    "id": 1,
+    "title": "Crossfit- Bay Of Island",
+    "description": "wordpress - responsive",
+    "link": "https://crossfitbayofislands.com/",
+    "image": {
+      "src": "/images/bay.png",
+      "alt": "crossfit website",
+      "reverse": true
     },
-    {
-      "id": 2,
-      "title": "Movie Lovers Database",
-      "description": "Where the data is collected from API",
-      "link":"https://movie-lovers-db.netlify.app",
-      "image": {
-        "src": "/images/movieDB.png",
-        "alt": "",
-        "reverse": false
+    "skills": [
+      {
+        "id": 1,
+        "name": "Wordpress",
+        "icon": "/svg/wordpress.svg"
       },
-      "skills": [
-        {
-          "id": 1,
-          "name": "React",
-          "icon": "/svg/react.svg"
-        },
-        {
-          "id": 2,
-          "name": "Sass",
-          "icon": "/svg/sass.svg"
-        }
-      ],
-      "links": [
-        {
-          "id": 1,
-          "url": "https://movie-lovers-db.netlify.app",
-          "name": "Live Demo",
-          "icon": "/svg/live.svg"
-        },
-        {
-          "id": 2,
-          "url": "GITHUB_REPO_LINK",
-          "name": "GitHub",
-          "icon": "/svg/github.svg"
-        }
-      ]
+      {
+        "id": 2,
+        "name": "Elementor",
+        "icon": "/svg/elementor.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 1,
+        "url": "https://crossfitbayofislands.com/",
+        "name": "Live Demo",
+        "icon": "/svg/live.svg"
+      },
+      {
+        "id": 2,
+        "url": "GITHUB_REPO_LINK",
+        "name": "GitHub",
+        "icon": "/svg/github.svg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Movie Lovers Database",
+    "description": "Where the data is collected from API",
+    "link": "https://movie-lovers-db.netlify.app",
+    "image": {
+      "src": "/images/movieDB.png",
+      "alt": "",
+      "reverse": false
     },
-    {
-      "id": 3,
-      "title": "Dance School with Charleen",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aperiam earum ",
-      "image": {
-        "src": "/images/landing2.png",
-        "alt": "Et kontor",
-        "reverse": true
+    "skills": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/svg/react.svg"
       },
-      "skills": [
-        {
-          "id": 1,
-          "name": "React",
-          "icon": "/svg/react.svg"
-        },
-        {
-          "id": 2,
-          "name": "Sass",
-          "icon": "/svg/sass.svg"
-        }
-      ],
-      "links": [
-        {
-          "id": 1,
-          "url": "LIVE_DEMO_LINK",
-          "name": "Live Demo",
-          "icon": "/svg/live.svg"
-        },
-        {
-          "id": 2,
-          "url": "GITHUB_REPO_LINK",
-          "name": "GitHub",
-          "icon": "/svg/github.svg"
-        }
-      ]
+      {
+        "id": 2,
+        "name": "Sass",
+        "icon": "/svg/sass.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 1,
+        "url": "https://movie-lovers-db.netlify.app",
+        "name": "Live Demo",
+        "icon": "/svg/live.svg"
+      },
+      {
+        "id": 2,
+        "url": "GITHUB_REPO_LINK",
+        "name": "GitHub",
+        "icon": "/svg/github.svg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vedsted Frontpage",
+    "description": "Resposive webdesign for a store front",
+    "link": "https://ronfrontweb.github.io/vedsted_gulvservice/",
+    "image": {
+      "src": "/images/landing2.png",
+      "alt": "Et kontor",
+      "reverse": true
     },
-    {
-      "id": 4,
-      "title": "Bike shop",
-      "description": "Resposive website that displays different bike products and contacct form",
-      "link":"https://ronfrontweb.github.io/E_Bike/index.html",
-      "image": {
-        "src": "/images/ebike.png",
-        "alt": "",
-        "reverse": false
+    "skills": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/svg/react.svg"
       },
-      "skills": [
-        {
-          "id": 1,
-          "name": "React",
-          "icon": "/svg/react.svg"
-        },
-        {
-          "id": 2,
-          "name": "Sass",
-          "icon": "/svg/sass.svg"
-        }
-      ],
-      "links": [
-        {
-          "id": 1,
-          "url": "https://ronfrontweb.github.io/E_Bike/index.html",
-          "name": "Live Demo",
-          "icon": "/svg/live.svg"
-        },
-        {
-          "id": 2,
-          "url": "GITHUB_REPO_LINK",
-          "name": "GitHub",
-          "icon": "/svg/github.svg"
-        }
-      ]
-    }
-  ]
+      {
+        "id": 2,
+        "name": "Sass",
+        "icon": "/svg/sass.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 1,
+        "url": "LIVE_DEMO_LINK",
+        "name": "Live Demo",
+        "icon": "/svg/live.svg"
+      },
+      {
+        "id": 2,
+        "url": "GITHUB_REPO_LINK",
+        "name": "GitHub",
+        "icon": "/svg/github.svg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bike Gallery",
+    "description": "Resposive website that displays different bike products and contacct form",
+    "link": "https://ronfrontweb.github.io/E_Bike/index.html",
+    "image": {
+      "src": "/images/ebike.png",
+      "alt": "",
+      "reverse": false
+    },
+    "skills": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/svg/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "Sass",
+        "icon": "/svg/sass.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 1,
+        "url": "https://ronfrontweb.github.io/E_Bike/index.html",
+        "name": "Live Demo",
+        "icon": "/svg/live.svg"
+      },
+      {
+        "id": 2,
+        "url": "GITHUB_REPO_LINK",
+        "name": "GitHub",
+        "icon": "/svg/github.svg"
+      }
+    ]
+  }
+]

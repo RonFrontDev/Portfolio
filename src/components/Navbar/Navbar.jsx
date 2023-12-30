@@ -15,30 +15,27 @@ function Navbar() {
       <ul className={`navbar__items ${isOpen ? "active" : ""}`}>
         <Logo isMobile />
         <li className="navbar__item">
-          <a onClick={toggleMenu} className="navbar__link" href="#homeSection">
+          <a onClick={toggleMenu} className="navbar__link" href="#home">
             Home
           </a>
         </li>
         <li className="navbar__item">
-          <a onClick={toggleMenu} className="navbar__link" href="#aboutSection">
+          <a onClick={toggleMenu} className="navbar__link" href="#about">
             About
           </a>
         </li>
         <li className="navbar__item">
-          <a
-            onClick={toggleMenu}
-            className="navbar__link"
-            href="#projectsSection"
-          >
+          <a onClick={toggleMenu} className="navbar__link" href="#projects">
             Projects
           </a>
         </li>
         <li className="navbar__item">
-          <a
-            onClick={toggleMenu}
-            className="navbar__link"
-            href="#contactSection"
-          >
+          <a onClick={toggleMenu} className="navbar__link" href="#experince">
+            Experince
+          </a>
+        </li>
+        <li className="navbar__item">
+          <a onClick={toggleMenu} className="navbar__link" href="#contact">
             Contact
           </a>
         </li>

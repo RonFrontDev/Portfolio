@@ -1,0 +1,40 @@
+@use "../../styles/variables" as *;
+
+.design {
+  padding-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+  &__title {
+    font-weight: bold;
+    padding: 20px 0;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  &__icon {
+    height: 50px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: $ipad) {
+  .design {
+    // padding-left: 20px;
+    display: flex;
+    &__icons {
+    }
+    &__icon {
+      height: 25px;
+      width: auto;
+    }
+  }
+}
+@media only screen and (max-width: $mobile) {
+}

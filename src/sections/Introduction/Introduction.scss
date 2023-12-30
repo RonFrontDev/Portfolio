@@ -1,103 +1,108 @@
 @use "../../styles/variables" as *;
 
-
 .introduction {
-  background-color: rgb(255, 255, 255);
-  // padding-top: 80px;
-  padding: 100px  40px 80px 40px ;
+  background-image: url("images/whiteBG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  padding-top: 80px;
+  padding: 100px 40px 80px 40px;
   margin-top: -80px;
-  margin-bottom: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   scroll-snap-align: start;
-  height: 100vh;
+  max-height: 100%;
   width: 100%;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   &__profile {
     display: grid;
-    grid-template-columns: repeat(2,2fr) ;
+    grid-template-columns: repeat(2, 2fr);
     height: 100%;
+    max-width: 100%;
+    padding-right: 40px;
+    overflow: hidden;
   }
-&__image {
-  object-fit: cover;
-  object-position: top;
-  max-width: auto;
-  min-width: 200px;
-  max-height: 600px;
-  border-radius: 90px;
-  margin: 20px;
-  max-inline-size: 100%;
-  block-size: auto;
-  aspect-ratio: 1/1;
+  &__location {
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-&__location {
-  height: 30px;
-  padding-left: 10px;
+  &__textbox {
+    max-width: 100%;
+  }
+  &__headline {
+    padding-top: 65px;
+    padding-bottom: 25px;
+  }
+  &__text {
+    padding-top: 5px;
+    word-wrap: break-word;
+  }
 }
-&__location:hover {
-  transform: scale(1.2);
-  background: url("images/sass.svg") no-repeat;
+@media only screen and (max-width: $ipad) {
+  .introduction {
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 0;
 
-}
-&__location {
-  height: 30px;
-  padding-left: 10px;
-}
-&__links {
-  display: flex;
-  gap: 5px;
-}
-&__link {
-  margin-top: 20px;
-  height: 15px;
-  width: auto;
-  transition: transform 1s ;
-}
-&__link:hover {
-  transform: scale(1.2);
-}
-&__headline {
-  padding-top: 65px;
-  padding-bottom: 25px;
-}
-&__text {
-  padding-top: 5px;
-}
+    &__profile {
+      grid-template-columns: 1fr;
+      &__image {
+        height: 10px;
+      }
+    }
+    &__headline {
+      padding-bottom: 10px;
+    }
+    &__textbox {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 35px;
+    }
+    &__text {
+      padding-bottom: 15px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  }
 }
 @media only screen and (max-width: $mobile) {
   .introduction {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-    padding: 0 40px;
-    margin-bottom: 350px;
-
-    &__profile {
-      display: flex;
-      flex-direction: column;
+    &__headline {
+      text-align: center;
     }
-    &__image {
-      display: flex;
-      min-width: 200px;
-      max-height: 500px;
-      border-radius: 90px;
-      margin: 20px;
-      aspect-ratio: none;
+    &__text {
+      padding-bottom: 15px;
+      text-align: center;
     }
-    &__link {
-      margin-top: 20px;
-      height: 15px;
-      width: auto;
-      transition: transform 1s ;
-    }
-    
+  }
+  .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 50px;
   }
 }
 
 .space {
   background-color: transparent;
   height: 80px;
+}
+.test {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
 }
