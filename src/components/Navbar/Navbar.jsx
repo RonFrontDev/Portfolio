@@ -30,8 +30,8 @@ function Navbar() {
           </a>
         </li>
         <li className="navbar__item">
-          <a onClick={toggleMenu} className="navbar__link" href="#experince">
-            Experince
+          <a onClick={toggleMenu} className="navbar__link" href="#experience">
+            Experience
           </a>
         </li>
         <li className="navbar__item">

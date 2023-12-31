@@ -30,21 +30,11 @@ function ContactInfo() {
       );
     } else if (popupContent === "location") {
       return (
-        // <iframe
-        //   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19420.945666121264!2d13.397606449999996!3d52.522248149999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851dfead80d8f%3A0x26212047581535f2!2sMitte%2C%20Berlin!5e0!3m2!1sda!2sde!4v1685967827185!5m2!1sda!2sde"
-        //   width="600"
-        //   height="400"
-        //   style={{ border: "10px solid black" }}
-        //   allowFullScreen=""
-        //   loading="lazy"
-        //   referrerPolicy="no-referrer-when-downgrade"
-        // ></iframe>
         <div className="contactinfo__location--container">
           <img
             className="contactinfo__location--image"
             src="images/copenhagen.jpg"
             alt=""
-            srcset=""
           />
           <h3 className="contactinfo__location--text">
             But i also work remote

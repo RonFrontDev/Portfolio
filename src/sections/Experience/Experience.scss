@@ -1,6 +1,6 @@
 @use "../../styles/variables" as *;
 
-.experince {
+.experience {
   background-image: url("../../images/whitegreenBG.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -57,7 +57,7 @@
   }
 }
 @media only screen and (max-width: $mobile) {
-  .experince {
+  .experience {
     &__container {
       padding: 10px;
       margin: 0;
