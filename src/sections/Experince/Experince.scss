@@ -55,7 +55,16 @@
     list-style-position: inside;
   }
 }
-
+@media only screen and (max-width: $mobile) {
+  .experince {
+    &__container {
+      grid-template-columns: 1fr;
+      align-self: center;
+      gap: 20px;
+    }
+  }
+}
+// only sportO logo
 .sizes {
   margin-top: -10px;
   margin-left: -5px;

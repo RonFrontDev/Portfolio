@@ -73,7 +73,7 @@ function Experince() {
           </div>
           <div className="experince__work experince__work--1">
             <img
-              className="experince__work--image"
+              className="experince__work--image "
               src="images/KV.png"
               alt=""
             />
@@ -89,7 +89,7 @@ function Experince() {
           </div>
           <div className="experince__work experince__work--1">
             <img
-              className="experince__work--image"
+              className="experince__work--image sizes"
               src="images/KV.png"
               alt=""
             />
