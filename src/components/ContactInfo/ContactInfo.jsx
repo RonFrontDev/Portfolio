@@ -25,7 +25,7 @@ function ContactInfo() {
         <div>
           <h2 className="title">Curriculum Vitae</h2>
           <p className="text">Check out my CV</p>
-          <embed target="_blank" src="CV.pdf" width="800px" height="1000px" />
+          <embed target="_blank" src="2CV.pdf" width="800px" height="1000px" />
         </div>
       );
     } else if (popupContent === "location") {
