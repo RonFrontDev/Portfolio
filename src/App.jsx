@@ -15,8 +15,6 @@ function App() {
       <Projects />
       <Experince />
       <Contact />
-      {/* <ContactForm />
-      <CF /> */}
     </div>
   );
 }

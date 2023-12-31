@@ -37,9 +37,9 @@ function About() {
           </p>
         </div>
         <div className="about__imagecontainer">
-          <img className="about__image" src="/images/coding.jpg" alt="" />
-          <img className="about__image" src="/images/coding.jpg" alt="" />
-          <img className="about__image" src="/images/coding.jpg" alt="" />
+          <img className="about__image" src="/images/travel.jpg" alt="" />
+          <img className="about__image" src="/images/lift.jpg" alt="" />
+          <img className="about__image" src="/images/couple.jpg" alt="" />
         </div>
       </div>
     </div>

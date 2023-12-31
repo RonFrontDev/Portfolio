@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Crossfit- Bay Of Island",
-    "description": "wordpress - responsive",
+    "description": "a responsive WordPress website for optimal viewing across devices. I integrated innovative features and a user-friendly layout,",
     "link": "https://crossfitbayofislands.com/",
     "image": {
       "src": "/images/bay.png",
@@ -39,7 +39,7 @@
   {
     "id": 2,
     "title": "Movie Lovers Database",
-    "description": "Where the data is collected from API",
+    "description": "Experience a responsive movie platform crafted with React, seamlessly fetching and displaying data from an API.",
     "link": "https://movie-lovers-db.netlify.app",
     "image": {
       "src": "/images/movieDB.png",
@@ -54,8 +54,8 @@
       },
       {
         "id": 2,
-        "name": "Sass",
-        "icon": "/svg/sass.svg"
+        "name": "API",
+        "icon": "/svg/api.svg"
       }
     ],
     "links": [
@@ -76,7 +76,7 @@
   {
     "id": 3,
     "title": "Vedsted Frontpage",
-    "description": "Resposive webdesign for a store front",
+    "description": " a responsive store front web design, integrating React for dynamic user interactions and Sass for a scalable styling framework.",
     "link": "https://ronfrontweb.github.io/vedsted_gulvservice/",
     "image": {
       "src": "/images/landing2.png",
@@ -112,8 +112,8 @@
   },
   {
     "id": 4,
-    "title": "Bike Gallery",
-    "description": "Resposive website that displays different bike products and contacct form",
+    "title": "E-Bikes Showcase",
+    "description": "This project involves the development of a responsive website featuring a variety of bike products and an integrated contact form. Notably, the website is built using vanilla JavaScript and CSS ",
     "link": "https://ronfrontweb.github.io/E_Bike/index.html",
     "image": {
       "src": "/images/ebike.png",
@@ -123,13 +123,13 @@
     "skills": [
       {
         "id": 1,
-        "name": "React",
-        "icon": "/svg/react.svg"
+        "name": "Javascript",
+        "icon": "/svg/js.svg"
       },
       {
         "id": 2,
-        "name": "Sass",
-        "icon": "/svg/sass.svg"
+        "name": "Css",
+        "icon": "/svg/css.svg"
       }
     ],
     "links": [
