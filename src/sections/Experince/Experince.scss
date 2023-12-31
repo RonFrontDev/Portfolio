@@ -58,6 +58,8 @@
 @media only screen and (max-width: $mobile) {
   .experince {
     &__container {
+      padding: 10px;
+      margin: 0;
       grid-template-columns: 1fr;
       align-self: center;
       gap: 20px;
