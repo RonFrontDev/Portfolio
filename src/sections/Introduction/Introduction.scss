@@ -1,13 +1,13 @@
 @use "../../styles/variables" as *;
 
 .introduction {
-  background-image: url("/../images/whiteBG.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("/../images/whiteBG.jpg");
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   min-height: 100vh;
   padding-top: 80px;
   padding: 100px 40px 80px 40px;
@@ -107,4 +107,11 @@
   grid-template-columns: 1fr 1fr;
   padding-bottom: 50px;
   gap: 200px;
+}
+
+.pictest {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
