@@ -1,7 +1,8 @@
 @use "../../styles/variables" as *;
 
 .introduction {
-  background-image: url("/../images/whiteBG.jpg");
+  // background-image: url("/../images/whiteBG.jpg");
+  background-image: url("/src/assets/whiteBG.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,16 +103,12 @@
   background-color: transparent;
   height: 80px;
 }
-.test {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 50px;
-  gap: 200px;
-}
-
 // .pictest {
 //   height: 100%;
 //   position: absolute;
 //   top: 0;
+//   left: 0;
+//   right: 0;
+//   buttom: 0;
 //   z-index: -1;
 // }
