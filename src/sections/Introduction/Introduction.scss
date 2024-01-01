@@ -1,8 +1,7 @@
 @use "../../styles/variables" as *;
 
 .introduction {
-  // background-image: url("/../images/whiteBG.jpg");
-  background-image: url("/../images/whitegreenBG.png");
+  background-image: url("/../images/whiteBG.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,6 +82,8 @@
 }
 @media only screen and (max-width: $mobile) {
   .introduction {
+    background-image: url("/../images/whitegreenBG.png");
+
     &__headline {
       text-align: center;
     }
