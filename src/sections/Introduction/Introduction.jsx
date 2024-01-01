@@ -30,7 +30,7 @@ function Introduction() {
               <Profile />
               <TechStack />
             </div>
-            <div className="test">
+            <div className="introduction__structure">
               <Structure />
               <Design />
             </div>

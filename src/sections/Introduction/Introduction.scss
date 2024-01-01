@@ -9,14 +9,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-
   padding-top: 80px;
   padding: 100px 40px 80px 40px;
   margin-top: -80px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   scroll-snap-align: start;
   max-height: 100%;
   width: 100%;
@@ -48,6 +43,12 @@
   &__text {
     padding-top: 5px;
     word-wrap: break-word;
+  }
+  &__structure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    gap: 200px;
   }
 }
 @media only screen and (max-width: $ipad) {
@@ -88,12 +89,12 @@
       padding-bottom: 15px;
       text-align: center;
     }
-  }
-  .test {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-bottom: 50px;
+    &__structure {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding-bottom: 50px;
+      gap: 70%;
+    }
   }
 }
 
@@ -105,4 +106,5 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 50px;
+  gap: 200px;
 }

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Crossfit- Bay Of Island",
-    "description": "a responsive WordPress website for optimal viewing across devices. I integrated innovative features and a user-friendly layout,",
+    "description": "A responsive WordPress website ensures optimal viewing across devices. It incorporates a user-friendly layout to enhance the overall experience",
     "link": "https://crossfitbayofislands.com/",
     "image": {
       "src": "/images/bay.png",
@@ -39,7 +39,7 @@
   {
     "id": 2,
     "title": "Movie Lovers Database",
-    "description": "Experience a responsive movie platform crafted with React, seamlessly fetching and displaying data from an API.",
+    "description": "Experience a responsive movie platform crafted with React, fetching and displaying data from an API.",
     "link": "https://movie-lovers-db.netlify.app",
     "image": {
       "src": "/images/movieDB.png",

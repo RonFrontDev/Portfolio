@@ -5,13 +5,14 @@
   grid-template-columns: 1fr 1fr;
   border-radius: 1rem;
   background-color: white;
-  // width: 100%;
   max-width: 1200px;
   overflow: hidden;
+  height: 400px;
   box-shadow: 10px 10px 10px -6px rgba(0, 0, 0, 0.36);
   &__imagebox {
     display: flex;
     align-items: center;
+    max-height: 100%;
   }
   &__image {
     object-fit: cover;
@@ -24,8 +25,9 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px;
     overflow: hidden;
+    min-height: 300px;
   }
   &__title {
     color: black;
@@ -34,6 +36,7 @@
   &__paragraph {
     justify-content: center;
     color: rgb(84, 84, 84);
+    font-size: 1rem;
   }
   &__skills {
     display: flex;
@@ -80,6 +83,9 @@
 
 @media only screen and (max-width: $ipad) {
   .project {
+    &__imagebox {
+      object-fit: fill;
+    }
     box-shadow: 10px 10px 10px -6px rgba(0, 0, 0, 0.36);
     &__paragraph {
       padding: 10px;
@@ -95,9 +101,18 @@
 @media only screen and (max-width: $mobile) {
   .project {
     display: flex;
+    height: 100%;
+
     flex-direction: column;
     align-items: center;
     box-shadow: 10px 10px 10px -6px rgba(0, 0, 0, 0.36);
+    &__imagebox {
+      object-fit: fill;
+      max-height: 200px;
+    }
+    &__title {
+      color: transparent;
+    }
     &:nth-child(even) {
       & .project__imagebox {
         order: 0;

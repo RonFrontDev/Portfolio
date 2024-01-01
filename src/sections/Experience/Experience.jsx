@@ -35,6 +35,7 @@ function Experience() {
             <ul className="experience__work--text">
               <li>Clean up of overall web designs</li>
               <li>Implementing new functions</li>
+              <li>Setup booking system</li>
             </ul>
           </div>
           <div className="experience__work experience__work--1">
@@ -68,7 +69,7 @@ function Experience() {
           <div className="experience__work experience__work--1">
             <img
               className="experience__work--image "
-              src="images/KV.png"
+              src="images/kraftV.png"
               alt=""
             />
             <h5 className="experience__work--title ">
@@ -82,8 +83,8 @@ function Experience() {
           </div>
           <div className="experience__work experience__work--1">
             <img
-              className="experience__work--image sizes invert"
-              src="images/difo.png"
+              className="experience__work--image  invert"
+              src="images/difoLogo.png"
               alt=""
             />
             <h5 className="experience__work--title ">web delevloper</h5>
@@ -91,7 +92,7 @@ function Experience() {
               <li>Clean up of overall web designs</li>
               <li>Create a member login</li>
               <li>Create webinar libraries</li>
-              <li>booking systems for members</li>
+              <li>setup pages for member access </li>
             </ul>
           </div>
         </div>
