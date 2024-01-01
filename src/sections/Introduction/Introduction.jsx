@@ -3,7 +3,7 @@ import Profile from "../../components/Profile/Profile";
 import Structure from "../../components/Structure/Structure";
 import TechStack from "../../components/TechStack/TechStack";
 import "./Introduction.scss";
-import backgroundImage from "../../assets/whiteBG.jpg";
+// import backgroundImage from "../../assets/whiteBG.jpg";
 
 function Introduction() {
   return (
@@ -38,7 +38,7 @@ function Introduction() {
           </div>
           {/* <Profile isMobile /> */}
         </div>
-        <img className="pictest" src={backgroundImage} alt="" />
+        {/* <img className="pictest" src={backgroundImage} alt="" /> */}
       </div>
     </>
   );
