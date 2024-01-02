@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *;
 
 .contactinfo {
-  // background-image: url("../../images/whiteBG.jpg");
+  background-image: url("../../images/whiteBG.jpg");
   background-image: url("/src/assets/SvgBG.svg");
   background-attachment: fixed;
   background-position: center;
@@ -138,6 +138,8 @@
 }
 @media only screen and (max-width: $mobile) {
   .contactinfo {
+    background-image: url("/src/assets/SvgBG.svg");
+
     &__container {
       width: auto;
       display: flex;
