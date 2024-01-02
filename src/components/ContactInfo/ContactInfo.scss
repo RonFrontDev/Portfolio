@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *;
 
 .contactinfo {
-  background-image: url("../../images/whiteBG.jpg");
+  // background-image: url("../../images/whiteBG.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +20,8 @@
   }
   &__headline {
     padding-bottom: 140px;
-    font-size: 3.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
   }
   &__box {
     padding-bottom: 50%;
@@ -68,14 +69,32 @@
     color: white;
     font-size: 3rem;
   }
+  &__email--container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 100px;
+  }
   &__location--container {
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
   }
   &__location--image {
+    max-width: 100%;
+    padding: 20px;
   }
   &__location--text {
+    margin: 0 20px;
+    max-width: 100%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3em;
     color: white;
     background-color: black;
   }
@@ -145,14 +164,4 @@
 }
 .newdirection {
   flex-direction: row-reverse;
-}
-
-.copy-notification {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }

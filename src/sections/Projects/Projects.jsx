@@ -3,7 +3,7 @@ import "./Projects.scss";
 import projectsData from "../../projectsData.json";
 
 function Projects() {
-  console.log(projectsData);
+  // console.log(projectsData);
   return (
     <div id="projects" className="projects">
       <div className="projects__header">

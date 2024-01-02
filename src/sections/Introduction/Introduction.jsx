@@ -4,7 +4,6 @@ import Structure from "../../components/Structure/Structure";
 import TechStack from "../../components/TechStack/TechStack";
 import "./Introduction.scss";
 // import backgroundImage from "../../assets/whiteBG.jpg";
-
 function Introduction() {
   return (
     <>

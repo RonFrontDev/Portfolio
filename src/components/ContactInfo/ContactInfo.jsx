@@ -13,7 +13,7 @@ function ContactInfo() {
   const renderPopupContent = () => {
     if (popupContent === "email") {
       return (
-        <div>
+        <div className="contactinfo__email--container">
           <h2 className="contactinfo__email--title">
             Any quetions, just shoot me an email
           </h2>
@@ -23,8 +23,8 @@ function ContactInfo() {
     } else if (popupContent === "cv") {
       return (
         <div>
-          <h2 className="title">Curriculum Vitae</h2>
-          <p className="text">Check out my CV</p>
+          {/* <h2 className="title">Curriculum Vitae</h2>
+          <p className="text">Check out my CV</p> */}
           <embed target="_blank" src="2CV.pdf" width="800px" height="1000px" />
         </div>
       );
