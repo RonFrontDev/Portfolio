@@ -19,9 +19,8 @@ function About() {
             staying updated with the latest development tools and techniques. I
             am a team player and thrive in collaborating with cross-functional
             teams to produce outstanding web applications. If you are looking
-            for someone who is passionate and dedicated to becoming a skilled
-            developer, I would love the opportunity to learn and grow with your
-            team.
+            for someone who is dedicated to becoming a skilled developer, I
+            would love the opportunity to learn and grow with your team.
           </p>
           <p className="about__headline-personal">Personal information</p>
           <p className="about__paragraph-personal">
