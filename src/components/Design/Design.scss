@@ -3,21 +3,22 @@
 .design {
   padding-top: 50px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   min-width: 100%;
   min-height: 100%;
+
   &__title {
     font-weight: bold;
     padding: 20px 0;
   }
   &__icons {
     display: flex;
-    justify-content: space-between;
     width: 60%;
     max-width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
   }
   &__icon {
     height: 50px;
@@ -26,12 +27,12 @@
 }
 @media only screen and (max-width: $ipad) {
   .design {
-    // padding-left: 20px;
-    display: flex;
     &__icons {
+      align-items: center;
+      justify-content: center;
     }
     &__icon {
-      height: 25px;
+      height: 40px;
       width: auto;
     }
   }
