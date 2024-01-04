@@ -3,7 +3,7 @@ import "./Logo.scss";
 function Logo({ isMobile }) {
   return (
     <div className={`logo ${isMobile ? "logo--mobile" : "logo--desktop"}`}>
-      <img className="logo__icon" src="svg/imac.svg" alt="" />
+      <img className="logo__icon" src="svg/computer.svg" alt="" />
       <div>
         <a className="logo__top" href="/">
           R.Christensen
