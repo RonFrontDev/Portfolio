@@ -79,6 +79,8 @@
 }
 @media only screen and (max-width: $mobile) {
   .about {
+    background-image: url("/src/assets/SvgBG.svg");
+
     padding: 10px;
     &__imagecontainer {
       padding: 0;
