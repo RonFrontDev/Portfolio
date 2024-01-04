@@ -146,5 +146,42 @@
         "icon": "/svg/github.svg"
       }
     ]
+  },
+  {
+    "id": 5,
+    "title": "Rating component",
+    "description": "This project involves the development of a responsive website featuring a variety of bike products and an integrated contact form. Notably, the website is built using vanilla JavaScript and CSS ",
+    "link": "https://ronfrontdev.github.io/Interactive-rating-component/",
+    "image": {
+      "src": "/images/rating.png",
+      "alt": "",
+      "reverse": false
+    },
+    "skills": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/svg/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "Css",
+        "icon": "/svg/css.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 1,
+        "url": "https://ronfrontweb.github.io/E_Bike/index.html",
+        "name": "Live Demo",
+        "icon": "/svg/live.svg"
+      },
+      {
+        "id": 2,
+        "url": "GITHUB_REPO_LINK",
+        "name": "GitHub",
+        "icon": "/svg/github.svg"
+      }
+    ]
   }
 ]
