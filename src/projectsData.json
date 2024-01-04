@@ -150,7 +150,7 @@
   {
     "id": 5,
     "title": "Rating component",
-    "description": "This project involves the development of a responsive website featuring a variety of bike products and an integrated contact form. Notably, the website is built using vanilla JavaScript and CSS ",
+    "description": "small project to practice handling user interactions and updating the DOM.  ",
     "link": "https://ronfrontdev.github.io/Interactive-rating-component/",
     "image": {
       "src": "/images/rating.png",
