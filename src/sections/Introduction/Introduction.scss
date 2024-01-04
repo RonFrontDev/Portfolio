@@ -82,7 +82,7 @@
 }
 @media only screen and (max-width: $mobile) {
   .introduction {
-    background-image: url("/../images/whitegreenBG.png");
+    background-image: url("/src/assets/SvgBG.svg");
 
     &__headline {
       text-align: center;
